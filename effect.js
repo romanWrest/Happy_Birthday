@@ -125,6 +125,7 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
+		 $(this).remove();
 		$('.cake').fadeIn('slow').promise().done(function(){
 			// Прокрутка к торту
 			$('.cake')[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -176,7 +177,7 @@ $('document').ready(function(){
     function msgLoop(i) {
         $("p:nth-child(" + i + ")").fadeOut(400).promise().done(function(){
             i = i + 1;
-            $("p:nth-child(" + i + ")").fadeIn(400).delay(2000).promise().done(function(){
+            $("p:nth-child(" + i + ")").fadeIn(400).delay(4000).promise().done(function(){
                 // Прокрутка к текущей строке текста с помощью jQuery
                 $('html, body').animate({
                     scrollTop: $("p:nth-child(" + i + ")").offset().top - ($(window).height() / 2)
