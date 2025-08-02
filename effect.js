@@ -176,7 +176,7 @@ $('document').ready(function(){
     function msgLoop(i) {
         $("p:nth-child(" + i + ")").fadeOut(400).promise().done(function(){
             i = i + 1;
-            $("p:nth-child(" + i + ")").fadeIn(400).delay(1200).promise().done(function(){
+            $("p:nth-child(" + i + ")").fadeIn(400).delay(2000).promise().done(function(){
                 // Прокрутка к текущей строке текста с помощью jQuery
                 $('html, body').animate({
                     scrollTop: $("p:nth-child(" + i + ")").offset().top - ($(window).height() / 2)
