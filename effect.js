@@ -166,7 +166,7 @@ $('document').ready(function(){
 	});
 	
 	$('#story').click(function(){
-    $(this).fadeOut('slow');
+    $(this).remove(); // Удаляем кнопку навсегда
     $('.cake').fadeOut('fast').promise().done(function(){
         $('.message').fadeIn('slow');
     });
