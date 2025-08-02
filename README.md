@@ -19,7 +19,7 @@ JavaScript (jQuery)
 Getting Started
 Clone this repository:
 
-Website - [Happy Birthday](https://github.com/nafisalawalidris/Happy-Birthday.git)
+
 
 An easy to deploy, Happy Birthday animation design TEMPLATE.
 
