@@ -125,8 +125,9 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
-		$('.cake').fadeIn('slow');
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+		$('.cake').fadeIn('slow').promise().done(function(){
+			// Прокрутка к торту
+			$('.cake')[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
 			$('#light_candle').fadeIn('slow');
 		});
 	});
