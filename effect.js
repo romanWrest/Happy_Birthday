@@ -125,13 +125,13 @@ $('document').ready(function(){
 	});	
 
 	$('#cake_fadein').click(function(){
-		 $(this).remove();
-		$('.cake').fadeIn('slow').promise().done(function(){
-			// Прокрутка к торту
-			$('.cake')[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
-			$('#light_candle').fadeIn('slow');
-		});
-	});
+    $('.cake').fadeIn('slow').promise().done(function(){
+        // Прокрутка к торту
+        $('.cake')[0].scrollIntoView({ behavior: 'smooth', block: 'center' });
+        $('#light_candle').fadeIn('slow');
+    });
+    $(this).remove(); 
+});
 
 	$('#light_candle').click(function(){
 		$('.fuego').fadeIn('slow');
