@@ -1,26 +1,24 @@
 # Happy Birthday Celebration Animation
-This project is a simple web page that creates a birthday celebration animation using HTML, CSS and JavaScript.
 
-## Overview
-The animation includes:
+Этот проект представляет собой веб-страницу с праздничной анимацией, созданной с помощью HTML, CSS и JavaScript.  
 
-- Turning on colorful bulbs
-- Playing a birthday song
-- Releasing flying balloons
-- Displaying a cake with candles
-- Lighting the candles
-- Showing a birthday wish message
-- Unfolding a birthday story
-  
-## Technologies Used
-HTML
-CSS
-JavaScript (jQuery)
-Getting Started
-Clone this repository:
+## ✨ Обзор  
+Анимация включает:  
 
+- 🎆 Включение разноцветных гирлянд  
+- 🎵 Воспроизведение праздничной песни  
+- 🎈 Запуск летающих шариков  
+- 🎂 Торт с анимированными свечами  
+- ✨ Зажжение свечей  
+- 🎉 Поздравительное сообщение  
+- 📜 Разворачивающаяся поздравление текста   
 
+## 🛠 Используемые технологии  
+- HTML  
+- CSS  
+- JavaScript (jQuery)  
 
-An easy to deploy, Happy Birthday animation design TEMPLATE.
-
-View Deployments [here]([https://github.com/Rishabh04-02/happy-birthday/deployments])
+## 🚀 Быстрый старт  
+1. Клонируйте репозиторий:  
+```bash
+git clone https://github.com/romanWrest/happy-birthday-animation.git
